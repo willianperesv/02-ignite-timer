@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
 export const FormContainer = styled.div`
-   width: 100%;
-
+  
+   width:100%;
    display:flex;
    align-items:center;
-   justify-content:center;
+   justify-content:start;
    gap: 0.5rem;
-
+   margin-top: 1.5rem;
    color: ${props => props.theme["gray-100"]}
    font-size: 1.125rem;
    font-weight:bold;
    flex-wrap:wrap;
-
+   overflow: hidden; /* Adiciona overflow hidden para evitar que o conteúdo saia do componente */
 `;
 
 const BaseInput = styled.input`

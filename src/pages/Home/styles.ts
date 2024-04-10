@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.main`
+   width:95%;
    flex: 1;
 
    display:flex;
@@ -9,6 +10,7 @@ export const HomeContainer = styled.main`
    justify-content:center;
 
    form{
+    width:100%;  
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -21,8 +23,7 @@ export const HomeContainer = styled.main`
 
 export const BaseCountdownButton = styled.button`
    
-   
-   width: 100%;
+   width:100%;
    border:0;
    padding: 1rem;
    border-radius: 8px;

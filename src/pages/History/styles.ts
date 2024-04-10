@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const HistoryContainer = styled.main`
+   width:100%;
    flex:1;
-   padding: 3.5rem;
+   padding: 1rem;
 
    display: flex;
    flex-direction: column;
@@ -84,5 +85,5 @@ export const Status = styled.span<StatusProps>`
     border-radius: 50%;
     background: ${(props) => props.theme[STATUS_COLORS[props.statusColor]]};
 
-   }
+   
 `;

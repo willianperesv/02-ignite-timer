@@ -7,6 +7,7 @@ export function Header(){
     return (
         <HeaderContainer>
             <img src={logoIgnite} alt="" />
+            <h3>Ignite Timer - Pomodoro's</h3>
             <nav>
                 <NavLink to="/">
                     <Timer size={24}/>

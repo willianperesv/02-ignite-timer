@@ -1,10 +1,17 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
+
+      width: 97%;
       display: flex;
       align-items:center;
       justify-content:space-between;
-
+      
+      h3{
+        width: 
+        border:1px solid red;
+        margin:0
+;      }
       nav{
         display:flex;
         gap: 0.5rem;
